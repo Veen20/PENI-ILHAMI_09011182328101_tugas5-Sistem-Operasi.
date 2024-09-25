@@ -1,4 +1,4 @@
-# PENI-ILHAMI_09011182328101_tugas5-Sistem-Operasi.
+![Gambar WhatsApp 2024-09-25 pukul 21 20 57_39ba84b6](https://github.com/user-attachments/assets/b5028abd-c9a3-4afe-9d70-d14d36ff8cdc)# PENI-ILHAMI_09011182328101_tugas5-Sistem-Operasi.
 
 <div align="center">
 
@@ -124,9 +124,11 @@ Saya=mahasiswa > PS1=”\w >”
 Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout 
 Echo “Terima kasih atas sesi yang diberikan”
 Sleep 5 
-clear 
+clear
 
-4. Bash script 
+  <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 21 20 57_39ba84b6" src="https://github.com/user-attachments/assets/5b4da205-69a4-43dc-b95c-3d4e0103c39a">
+
+5. Bash script 
 a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing : 
 p1.sh 
 #! /bin/bash 
@@ -146,7 +148,7 @@ $ ./p1.sh &
 $ ./p1.sh $ ./p2.sh & ./p3.sh & 
 $ ( ./p1.sh ; ./p3.sh ) & 
 
-5. Jobs 
+6. Jobs 
 a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, 
 setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil. 
 Praktikum 5 Job Control
@@ -170,7 +172,7 @@ d. Stop program background dengan utilitas kil
 $ ps x 
 $ kill [Nomor PID] 
 
-6. History 
+7. History 
 a. Ganti nilai HISTSIZE dari 1000 menjadi 20 
 $ HISTSIZE=20 
 $ h 
