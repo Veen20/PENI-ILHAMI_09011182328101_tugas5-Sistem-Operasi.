@@ -118,6 +118,7 @@ Saya=mahasiswa > PS1=”\w >”
 ~ > PS1=\h >” 
 
   <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 21 09 07_e0ed3a18" src="https://github.com/user-attachments/assets/2c184a1b-bf82-4a4f-9d30-87fbde4258db">
+
 <br>
 
 3. Logout 
@@ -128,7 +129,7 @@ clear
 
   <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 21 20 57_39ba84b6" src="https://github.com/user-attachments/assets/5b4da205-69a4-43dc-b95c-3d4e0103c39a">
 
-5. Bash script 
+4. Bash script 
 a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing : 
 p1.sh 
 #! /bin/bash 
@@ -148,7 +149,7 @@ $ ./p1.sh &
 $ ./p1.sh $ ./p2.sh & ./p3.sh & 
 $ ( ./p1.sh ; ./p3.sh ) & 
 
-6. Jobs 
+5. Jobs 
 a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, 
 setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil. 
 Praktikum 5 Job Control
@@ -172,7 +173,7 @@ d. Stop program background dengan utilitas kil
 $ ps x 
 $ kill [Nomor PID] 
 
-7. History 
+6. History 
 a. Ganti nilai HISTSIZE dari 1000 menjadi 20 
 $ HISTSIZE=20 
 $ h 
