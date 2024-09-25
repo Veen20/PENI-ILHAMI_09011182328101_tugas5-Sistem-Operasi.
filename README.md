@@ -166,39 +166,63 @@ $ ( ./p1.sh ; ./p3.sh ) &
 
 ![Gambar WhatsApp 2024-09-25 pukul 23 24 27_b827e870](https://github.com/user-attachments/assets/5ec500ce-7bc7-4de3-a813-1fa5de08af25)
 
-5. Jobs 
+5. Jobs\ 
 a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, 
 setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil. 
-Praktikum 5 Job Control\
-Praktikum Sistem Operasi 10\
 #!/bin/bash \
 while [ true ] \
 do \
 date >> hasil \
 done \
+
+![Gambar WhatsApp 2024-09-26 pukul 00 14 07_289379e5](https://github.com/user-attachments/assets/9328aec0-80b9-48e7-9e15-cbd32e937efc)
+![Gambar WhatsApp 2024-09-26 pukul 00 14 07_1f6cf34d](https://github.com/user-attachments/assets/0ff63438-09ef-4167-91d3-dd942e55e81e)
+
 b. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background 
 sebagai berikut : 
 $ jobs\ 
 $ find / -print > files 2>/dev/null & \
 $ jobs \
+
+![Gambar WhatsApp 2024-09-26 pukul 00 14 07_03cd62a8](https://github.com/user-attachments/assets/a82282e0-6a2c-4524-bdd7-38d56d251d8d)
+
 c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke 
 background 
 $ fg %1\ 
 $ bg \
+
+![Gambar WhatsApp 2024-09-26 pukul 00 17 16_6f29da76](https://github.com/user-attachments/assets/9c57ccaf-67e1-4616-9a03-bd3b3d3f863f)
+
 d. Stop program background dengan utilitas kil 
 $ ps x\ 
 $ kill [Nomor PID] \
 
-7. History 
+![Gambar WhatsApp 2024-09-26 pukul 00 17 16_27d3db1b](https://github.com/user-attachments/assets/a44c2e3e-3fed-46c6-aca7-4043283de0ba)
+
+6. History 
 a. Ganti nilai HISTSIZE dari 1000 menjadi 20 
 $ HISTSIZE=20 \
 $ h \
+
+![Gambar WhatsApp 2024-09-26 pukul 00 20 33_8c9ceaf4](https://github.com/user-attachments/assets/1e7623c2-2114-4151-9ce7-638b3d062bcb)
+
 b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir
 dilakukan 
 $ !-5\ 
+
+![Gambar WhatsApp 2024-09-26 pukul 00 31 21_2bce675e](https://github.com/user-attachments/assets/32f6fa01-d08b-496b-a708-17657118417d)
+
 c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer 
 $ !! \
+
+![Gambar WhatsApp 2024-09-26 pukul 00 31 20_0b3116a5](https://github.com/user-attachments/assets/32318c40-5c37-4051-8980-281a6d54dce8)
+
 d. Ulangi instruksi pada history bufer nomor 150 
 $ !150\ 
+
+![Gambar WhatsApp 2024-09-26 pukul 00 31 20_1620f4d7](https://github.com/user-attachments/assets/3db984f3-0d53-4ec1-a302-7efc4f702ebe)
+
 e. Ulangi instruksi dengan prefix “ls” 
 $ !ls\
+
+![Gambar WhatsApp 2024-09-26 pukul 00 31 19_30a6c548](https://github.com/user-attachments/assets/302704a9-011f-48ed-9dce-1eec15702f48)
