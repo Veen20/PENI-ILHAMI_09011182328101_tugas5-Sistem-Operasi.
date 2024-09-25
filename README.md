@@ -68,6 +68,8 @@ bersangkutan.
   <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 19 58 03_189a441d" src="https://github.com/user-attachments/assets/d4d3bcdb-e626-4420-af68-f315cbe07bc8">
 <br>
   <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 20 04 01_11b05c24" src="https://github.com/user-attachments/assets/6a11d65e-f34a-4e4d-ab4e-2b86833e9a48">
+<br>
+  <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 20 08 53_66c61571" src="https://github.com/user-attachments/assets/71552c87-47e3-441e-8b4e-9546ef40b8f4">
 
 
 c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: 
