@@ -118,7 +118,7 @@ Saya=mahasiswa > PS1=”\w >”
 ~ > PS1=\h >” 
 
   <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 21 09 07_e0ed3a18" src="https://github.com/user-attachments/assets/2c184a1b-bf82-4a4f-9d30-87fbde4258db">
-
+<br>
 
 3. Logout 
 Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout 
