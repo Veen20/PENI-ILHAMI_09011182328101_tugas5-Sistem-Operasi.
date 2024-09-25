@@ -1,4 +1,4 @@
-![Gambar WhatsApp 2024-09-25 pukul 21 20 57_39ba84b6](https://github.com/user-attachments/assets/b5028abd-c9a3-4afe-9d70-d14d36ff8cdc)# PENI-ILHAMI_09011182328101_tugas5-Sistem-Operasi.
+# PENI-ILHAMI_09011182328101_tugas5-Sistem-Operasi.
 
 <div align="center">
 
