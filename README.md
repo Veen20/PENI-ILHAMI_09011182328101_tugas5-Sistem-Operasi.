@@ -83,7 +83,19 @@ $ exit \
 
   <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 20 13 22_f353209e" src="https://github.com/user-attachments/assets/6810f7e8-1c35-4eb0-a0c0-128d196f16c5">
 
-Jelaskan perbedaan kedua utilitas tersebut. 
+Jelaskan perbedaan kedua utilitas tersebut. \
+Perbedaan antara perintah su peni-ilhami dan su - peni-ilhami terletak pada cara keduanya mengelola sesi login dan lingkungan shell.
+
+su peni-ilhami:
+
+1. Perintah ini hanya mengganti identitas pengguna menjadi peni-ilhami tanpa memulai sesi login penuh. Lingkungan shell yang dijalankan tetap mewarisi variabel-variabel dari pengguna sebelumnya.
+2. Hanya file .bashrc yang dieksekusi, tanpa mengubah variabel lingkungan secara signifikan.
+<br>
+su - peni-ilhami:
+
+1. Perintah ini memulai sesi login penuh untuk pengguna peni-ilhami, mirip dengan saat pengguna tersebut masuk langsung ke sistem.
+File profil login seperti /etc/profile dan .bash_profile dijalankan, sehingga menginisiasi lingkungan baru yang sesuai dengan pengaturan pengguna.
+2. Kesimpulannya, perintah su peni-ilhami hanya mengubah pengguna tanpa memodifikasi lingkungan shell secara menyeluruh, sementara su - peni-ilhami menjalankan sesi login lengkap dan menerapkan konfigurasi lingkungan baru dari file profil pengguna.
 
 <br>
 
