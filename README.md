@@ -106,4 +106,80 @@ parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua
 PS1=‟> „ 
 export PS1 
 
+  <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 21 14 47_dbff6681" src="https://github.com/user-attachments/assets/852886be-496e-44b7-90e9-d325117b841d">
+
+
 b. Eksperimen hasil PS1 :
+$ PS1=“\! > “ 
+69 > PS1=”\d > “ 
+Mon Sep 23 > PS1=”\t > “ 
+10:10:20 > PS1=”Saya=\u > “ 
+Saya=mahasiswa > PS1=”\w >” 
+~ > PS1=\h >” 
+
+  <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 21 09 07_e0ed3a18" src="https://github.com/user-attachments/assets/2c184a1b-bf82-4a4f-9d30-87fbde4258db">
+
+
+3. Logout 
+Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout 
+Echo “Terima kasih atas sesi yang diberikan”
+Sleep 5 
+clear 
+
+4. Bash script 
+a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing : 
+p1.sh 
+#! /bin/bash 
+echo “Program p1” 
+ls –l 
+p2.sh 
+#! /bin/bash 
+echo “Program p2” 
+who 
+p3.sh 
+#! /bin/bash 
+echo “Program p3” 
+ps x 
+b. Jalankan script tersebut sebagai berikut : 
+$ ./p1.sh ; ./p3.sh ; ./p2.sh 
+$ ./p1.sh & 
+$ ./p1.sh $ ./p2.sh & ./p3.sh & 
+$ ( ./p1.sh ; ./p3.sh ) & 
+
+5. Jobs 
+a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, 
+setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil. 
+Praktikum 5 Job Control
+Praktikum Sistem Operasi 10
+#!/bin/bash 
+while [ true ] 
+do 
+date >> hasil 
+sleep 10 
+done 
+b. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background 
+sebagai berikut : 
+$ jobs 
+$ find / -print > files 2>/dev/null & 
+$ jobs 
+c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke 
+background 
+$ fg %1 
+$ bg 
+d. Stop program background dengan utilitas kil 
+$ ps x 
+$ kill [Nomor PID] 
+
+6. History 
+a. Ganti nilai HISTSIZE dari 1000 menjadi 20 
+$ HISTSIZE=20 
+$ h 
+b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir
+dilakukan 
+$ !-5 
+c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer 
+$ !! 
+d. Ulangi instruksi pada history bufer nomor 150 
+$ !150 
+e. Ulangi instruksi dengan prefix “ls” 
+$ !ls
