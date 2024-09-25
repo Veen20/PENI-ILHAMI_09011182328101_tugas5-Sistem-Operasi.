@@ -45,6 +45,8 @@ echo “Profile dari /etc/profile”
 
   <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 16 48 13_dc0190dd" src="https://github.com/user-attachments/assets/541e772d-f7d7-48fe-88bb-2f2d6374b82a">
 
+  <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 19 36 31_5d8d2528" src="tps://github.com/user-attachments/assets/3e28dfae-e74e-4495-8bab-3d9ca0e38fe9">
+
 
 b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu : 
 
@@ -58,6 +60,11 @@ file tersebut, cantumkan instruksi echo, misalnya pada /home/ mahasiswa/.bash_pr
 echo “Profile dari .bash_profile” \
 Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file yang 
 bersangkutan. 
+
+  <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 19 36 31_e173cfe8" src="https://github.com/user-attachments/assets/901555e6-46c9-4ee2-aa7b-23ecef46f8d6">
+
+  <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 19 50 22_3e9ac60a" src="https://github.com/user-attachments/assets/5caabcfa-226a-485f-97fa-47430e25d6db">
+
 
 c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: 
 $ su mahasiswa \
