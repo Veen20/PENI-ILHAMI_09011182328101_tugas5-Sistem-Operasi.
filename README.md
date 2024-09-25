@@ -143,11 +143,28 @@ p3.sh \
 #! /bin/bash \
 echo “Program p3”\ 
 ps x \
+
+![Gambar WhatsApp 2024-09-25 pukul 23 07 52_38a9dcda](https://github.com/user-attachments/assets/310d532f-c76e-4fc7-818e-ff96d27f0d7b)
+
+![Gambar WhatsApp 2024-09-25 pukul 23 08 17_f1f1c97b](https://github.com/user-attachments/assets/c9199b3e-c7a9-4e24-af26-5051a199e651)
+
+![Gambar WhatsApp 2024-09-25 pukul 23 07 24_16acb170](https://github.com/user-attachments/assets/9763899f-b089-4687-9aee-cb9c03507071)
+
 b. Jalankan script tersebut sebagai berikut : 
 $ ./p1.sh ; ./p3.sh ; ./p2.sh \
 $ ./p1.sh & \
 $ ./p1.sh $ ./p2.sh & ./p3.sh & \
 $ ( ./p1.sh ; ./p3.sh ) & 
+
+![Gambar WhatsApp 2024-09-25 pukul 23 24 32_ee288601](https://github.com/user-attachments/assets/c67b22ed-aacb-4d00-96bd-fee308c305f5)
+
+![Gambar WhatsApp 2024-09-25 pukul 23 24 32_c0142454](https://github.com/user-attachments/assets/e3d61412-c1a5-441f-8985-d56f80ba7456)
+
+![Gambar WhatsApp 2024-09-25 pukul 23 24 32_0b52505f](https://github.com/user-attachments/assets/972cdbab-2e51-4c92-9316-1c76a57d8c70)
+
+![Gambar WhatsApp 2024-09-25 pukul 23 24 27_a2deed08](https://github.com/user-attachments/assets/af09ac3a-bdfa-4614-b419-fb81f0a6f3fd)
+
+![Gambar WhatsApp 2024-09-25 pukul 23 24 27_b827e870](https://github.com/user-attachments/assets/5ec500ce-7bc7-4de3-a813-1fa5de08af25)
 
 5. Jobs 
 a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, 
@@ -158,7 +175,6 @@ Praktikum Sistem Operasi 10\
 while [ true ] \
 do \
 date >> hasil \
-sleep 10 \
 done \
 b. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background 
 sebagai berikut : 
@@ -173,7 +189,7 @@ d. Stop program background dengan utilitas kil
 $ ps x\ 
 $ kill [Nomor PID] \
 
-6. History 
+7. History 
 a. Ganti nilai HISTSIZE dari 1000 menjadi 20 
 $ HISTSIZE=20 \
 $ h \
