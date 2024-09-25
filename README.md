@@ -43,6 +43,9 @@ KELAS       : SK3B
 a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut : 
 echo “Profile dari /etc/profile” 
 
+  <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 16 48 13_dc0190dd" src="https://github.com/user-attachments/assets/541e772d-f7d7-48fe-88bb-2f2d6374b82a">
+
+
 b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu : 
 
 /home/stD02001/.bash_profile \
