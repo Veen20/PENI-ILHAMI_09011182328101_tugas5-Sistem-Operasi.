@@ -71,14 +71,18 @@ bersangkutan.
 <br>
   <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 20 08 53_66c61571" src="https://github.com/user-attachments/assets/71552c87-47e3-441e-8b4e-9546ef40b8f4">
 
-
-c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: 
+c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: \
 $ su mahasiswa \
 $ exit 
 
-kemudian gunakan opsi – sebagai berikut : 
+ <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 20 08 53_66c61571" src="https://github.com/user-attachments/assets/71552c87-47e3-441e-8b4e-9546ef40b8f4">
+
+kemudian gunakan opsi – sebagai berikut : \
 $ su – mahasiswa \
 $ exit \
+
+  <img width="500" alt="Gambar WhatsApp 2024-09-25 pukul 20 13 22_f353209e" src="https://github.com/user-attachments/assets/6810f7e8-1c35-4eb0-a0c0-128d196f16c5">
+
 Jelaskan perbedaan kedua utilitas tersebut. 
 
 <br>
